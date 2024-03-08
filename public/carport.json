@@ -1,0 +1,52 @@
+[
+    {
+        "id": "ShadeSwift",
+        "project": "Project 01",
+        "mainTtl": "Style Meets Shelter for Your Vehicle, Order your Carport right now!",
+        "mainDesc": "At ShadeSwift, we not only offer top-notch carports but also provide impeccable installation services that redefine how you protect your vehicles. Our commitment goes beyond delivering a product – we ensure a seamless experience from selection to setup.",
+        "title": "ShadeSwift Vehicle Shelter",
+        "category": "carport",
+        "item": "Item no 117197",
+        "itemDesc": "ShadeSwift Carport | Custimize as You Like",
+        "shortDesc": "ShadeSwift is designed with ventilation in mind, preventing heat buildup and ensuring optimal airflow. Keep your vehicle cool and safeguarded from extreme temperatures.",
+        "price": 3000,
+        "images": {
+            "banner": "https://i.ibb.co/86bfH9k/Rectangle-114-2.png",
+            "showcase": [
+                "https://i.ibb.co/gW382r3/Whats-App-Image-2023-05-14-at-19-06-1ff2.jpg",
+                "https://i.ibb.co/TrnSTM8/Whats-App-Image-2023-0f5-14-at-19-06-13.jpg",
+                "https://i.ibb.co/9NsVh0c/Whats-App-Image-2023-05-14-afft-19-06-12.jpg",
+                "https://i.ibb.co/sWJCpRw/Whats-App-Image-2023-05-14-fat-19-06-13.jpg"
+            ]
+        },
+        "checkers": [
+            "5 YEARS WARRANTY",
+            "INNOVATIVE DESIGN",
+            "WORLDWIDE SHIPMENT",
+            "PERSONAL ADVICE IN OUR SHOWROOM"
+        ],
+        "descriptions": {
+            "desc1": "Elevate your property with ShadeSwift's superior carport installation services. From residential spaces to commercial establishments, we bring style and functionality to every setting. Experience the ShadeSwift difference – where professionalism meets protection. Contact us today to schedule your installation and redefine the way you shelter your vehicles!",
+            "desc2": "Experience the perfect fusion of style and functionality with ShadeSwift. Redefine the way you shelter your vehicle – order your ShadeSwift today and enjoy instant, stylish protection!"
+        },
+        "specifications": [
+            {
+                "key": "Customize Design",
+                "value": "Yes"
+            },
+            {
+                "key": "Down Payment",
+                "value": "Yes"
+            },
+            {
+                "key": "WorldWide Shipping",
+                "value": "Yes"
+            },
+            {
+                "key": "Multiple Size",
+                "value": "Yes"
+            }
+
+        ]
+    }
+]

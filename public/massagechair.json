@@ -1,0 +1,70 @@
+[
+    {
+        "id": "ms-131plus",
+        "project": "Project 01",
+        "mainTtl": "Take the first step to a more comfortable life, and order your massage chair right now!",
+        "mainDesc": "It's time to make the best investment for yourself with this massage chair. You can contact us today and order the massage chair to get the best experience without denting your wallet!",
+        "title": "MS-131 PLUS Massage Chair",
+        "category": "massage-chair",
+        "item": "Item no 117195",
+        "itemDesc": "MS-131 PLUS Massage Chair | Touch Screen",
+        "cmin": "CM | INCH",
+        "cminDesc": "1460×846×1245 mm",
+        "shortDesc": "Tastefully blending contemporary design with a touch of industrial flair, the Monticello Lantern is an updated classic.",
+        "price": 6000,
+        "images": {
+            "banner": "https://i.ibb.co/7W82RbK/Screenshot-12.png",
+            "showcase": [
+                "https://i.ibb.co/8b1XWNQ/DSC03611.jpg",
+                "https://i.ibb.co/0M2WPDm/DSC03635.jpg",
+                "https://i.ibb.co/FDtBZ8H/DSC03640.jpg",
+                "https://i.ibb.co/BrrN1wd/DSC03643.jpg"
+            ]
+        },
+        "checkers": [
+            "2 YEARS WARRANTY",
+            "INNOVATIVE DESIGN",
+            "WORLDWIDE SHIPMENT",
+            "PERSONAL ADVICE IN OUR SHOWROOM"
+        ],
+        "descriptions": {
+            "desc1": "Have you been waiting for the day when you get the ultimate relaxation after a long tiring day of work? With MS-131 PLUS Massage Chair, we have got you covered! It helps relax your tensed muscles and reduce fatigue.",
+            "desc2": "This massage chair is packed with tons of advanced features. It comes with an adjustable footrest and leg rest that allows you to be in a relaxing position. Designed with high-quality materials and entails the latest technology to offer you optimal comfort. You can listen to your favorite music or podcasts while being in a perfect position of relaxation. It offers a perfect combo of comfort and design.",
+            "desc3": "Featuring a touchscreen remote control that makes everything intuitive and simple. You can choose any massage mode, connect smartphones via Bluetooth and access all functions with just a single touch."
+        },
+        "specifications": [
+            {
+                "key": "Airbag",
+                "value": "Yes"
+            },
+            {
+                "key": "Footrest",
+                "value": "Yes"
+            },
+            {
+                "key": "Remote control",
+                "value": "Yes"
+            },
+            {
+                "key": "Bluetooth speakers",
+                "value": "Touch screen"
+            },
+            {
+                "key": "Weight massage chair",
+                "value": "Main Body: N.W.: 128 Kg, G.W.: 146 K"
+            },
+            {
+                "key": "Foot",
+                "value": "N.W.: 25 Kg, G.W.: 28 Kg"
+            },
+            {
+                "key": "Dimensions (L×H×W)",
+                "value": "1460×846×1245 mm"
+            },
+            {
+                "key": "Power Supply and wattage",
+                "value": "110-240V~ and 200 W"
+            }
+        ]
+    }
+]

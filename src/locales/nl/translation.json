@@ -1,0 +1,201 @@
+{
+  "navbar": {
+    "home": "Thuis",
+    "carport": "Carport",
+    "furniture": "Meubilair",
+    "massagechair": "Massage stoel",
+    "lights": "Lichten"
+  },
+  "homeSlider": {
+    "title1": "Bescherm uw auto in stijl met onze ongeëvenaarde kwaliteitscarports",
+    "desc1": "Wij zijn gespecialiseerd in het ontwerpen en bouwen van carports die de uitstraling van uw woning versterken en ultieme bescherming bieden.",
+    "title2": "Ervaar buitengewoon comfort met onze prachtige luxe meubelen",
+    "desc2": "Geniet van het comfort van onze luxe banken, ontworpen met eersteklas materialen om een statement te maken.",
+    "title3": "Verlicht uw ruimte met onze verlichtingsoplossingen",
+    "desc3": "Energiezuinige verlichtingsoplossingen die een warme en uitnodigende sfeer creëren.",
+    "title4": "Ontspan en ontstress met de ultieme massage-ervaring",
+    "desc4": "Onze hightech massagestoelen bieden een rustgevende massage om te ontspannen.",
+    "aboutUS": "Over Ons",
+    "contactUS": "Contact Ons"
+  },
+  "homeValueAbleSpeech": {
+    "title": "Waardevolle toespraak van onze CEO en oprichter",
+    "desc1": "Hallo jongens!",
+    "desc2": "Welkom in onze wereld van comfort en luxe. We zijn verheugd om u een lijn van mooie en functionele producten aan te bieden. Mijn passie voor auto's en luxe meubels werd mijn beroep en bracht me ertoe de basis te leggen van dit bedrijf waar je alles vindt om tot rust te komen en op te laden, van de carport tot verlichting en van luxe meubels tot massagestoelen.",
+    "desc3": "Als CEO van dit bedrijf geloof ik dat luxe niet iets is dat te maken heeft met het prijskaartje, maar met de ervaring. Dat is waar onze producten en diensten vandaan komen die mijn jarenlange ervaring en toewijding aan uitmuntendheid weerspiegelen.",
+    "desc4": "Onze ontwerper, houder van een beroepsdiploma, zorgt ervoor dat elk product met de grootste zorg en detail wordt ontworpen.",
+    "desc5": "Laten we op reis gaan om uw ruimte om te vormen tot een toevluchtsoord van comfort en ontspanning.",
+    "desc6": "Eerlijk,"
+  },
+  "homeCompleteCollection": {
+    "title": "Onze Complete Collectie Met Luxe",
+    "desc": "Het is al lang een vaststaand feit dat een lezer wordt afgeleid door de leesbare inhoud van een pagina",
+    "r1": "Carport",
+    "r2": "Massage stoel",
+    "r3": "Meubilair",
+    "r4": "Lichten"
+  },
+  "homeLuxuryCollection": {
+    "title": "Verhoog uw ruimte met meubels die uw stijl weerspiegelen",
+    "desc1": "Een kwaliteitsmeubel weerspiegelt uw persoonlijkheid, smaak en het leven dat u wilt leven. Dus waarom zou u niet in stijl en comfort leven met onze reeks bankencollecties? Onze passie voor design en toewijding aan kwaliteit vind je terug in onze collectie stukken. Van de strakke lijnen van moderne banken tot warme tinten van tafels en statement-stukken tot alle items, we hebben voor elk wat wils.",
+    "desc2": "Omdat het juiste meubelstuk leven in uw ruimte kan brengen, hebben we een gevarieerde collectie samengesteld om aan de behoeften van onze klanten te voldoen. Verder hoef je je geen zorgen te maken over het materiaal van de meubels; wij zorgen voor eersteklas materialen en vakmanschap. Elk detail is zorgvuldig gefocust om ervoor te zorgen dat het jarenlang meegaat, van de mooiste woorden tot de pluchen kussens van onze banken.",
+    "desc3": "Neem geen genoegen met minder! Ontdek onze collectie en krijg een perfect stuk dat jouw stijl uitdrukt."
+  },
+  "homeExclusiveProduct": {
+    "lfttitle": "Ons exclusieve product",
+    "title": "Ontspan en laad jezelf op met onze massagestoelen",
+    "desc1": "Op zoek naar een stoel die je een volledige lichaamsmassage geeft en al je zorgen wegsmelt? Onze massagestoelen zijn voor jou. Ze bieden u de ultieme ontspanning en ontspanning als nooit tevoren. Omdat onze ultramoderne stoelen zijn ontworpen met uw comfort in gedachten, kunt u uw vermoeide voeten kalmeren of de spanning in uw schouder of nek verlichten met onze massagestoelen.",
+    "desc2": "Met een scala aan massagetechnieken bieden ze een echt therapeutische ervaring en stellen ze je in staat om je boodschap aan te passen aan specifieke lichaamsregio's. Bovendien kun je de stoel in elke comfortabele positie zetten. We zijn toegewijd aan het aanbieden van hoogwaardige, stevige, duurzame massagestoelen.",
+    "p1": "Het is een lang vaststaand feit dat een lezer",
+    "p2": "een al lang vaststaand feit dat een lezer zal worden afgeleid",
+    "p3": "vaststaand feit dat een lezer wordt afgeleid",
+    "p4": "feit dat een lezer zal worden afgeleid door de",
+    "ex": "Exclusief",
+    "cm": "Comfort",
+    "at": "Automatisch",
+    "viewD": "Details bekijken"
+  },
+  "homeDiscoverExclusiveProducts": {
+    "title": "Schijn helder met onze verbluffende verlichtingscollectie die je leven verlicht",
+    "desc1": "Niets beter dan verlichting om de sfeer te creëren die u wenst. Met een perfecte verlichtingsarmatuur kunt u uw ruimte aanvullen. We bieden een breed scala aan kroonluchters, lantaarns en andere verlichtingsarmaturen die uw stijl uitdrukken en net zo uniek zijn als u.",
+    "desc2": "Of je nu op zoek bent naar een bohemian of een industriële stijl, onze verlichtingsarmaturen zijn uniek in hun soort. Bovendien passen onze kroonluchters bij uw stijl, zodat u drama kunt toevoegen aan uw eethoek of een serene sfeer aan uw slaapkamer kunt geven.",
+    "desc3": "Onze lantaarns zijn net zo bijzonder, met verschillende soorten en maten. We beloven materiaal van de hoogste kwaliteit te leveren, zodat u geen spijt krijgt van het kopen van een artikel. We ontwerpen elk verlichtingsarmatuur met stevig materiaal zodat het jarenlang meegaat.",
+    "desc4": "Of je nu op zoek bent naar een bohemian of een industriële stijl, onze verlichtingsarmaturen zijn uniek in hun soort. Bovendien passen onze kroonluchters bij uw stijl, zodat u drama kunt toevoegen aan uw eethoek of een serene sfeer aan uw slaapkamer kunt geven."
+  },
+  "homeOurWorkingProcess": {
+    "title": "In 3 eenvoudige stappen helpen wij u bij het ontwerpen van uw droomruimte",
+    "title1": "Overleg",
+    "desc1": "Het succes van elk project ligt aan de basis van efficiënt overleg. We lopen met u mee in elke fase van het project van begin tot eind. Ons deskundig team begrijpt al uw vragen en werkt met u samen om een plan te ontwikkelen dat u helpt uw doelen te bereiken.",
+    "title2": "Kies Ontwerp",
+    "desc2": "Wat uw smaak ook is, wij bieden een uitgebreide collectie ontwerpen om uit te kiezen. In onze catalogus kunt u een ontwerp ontdekken dat bij uw stijl past. Verder, als u geen perfect ontwerp vindt, kunt u een gepersonaliseerd ontwerp krijgen dat aan uw behoeften voldoet.",
+    "title3": "Werk gedaan",
+    "desc3": "Bij Motion Products streven we ernaar om aan de verwachtingen van onze klanten te voldoen. We zijn trots op ons toegewijde team, dat werkt om projecten op tijd en binnen uw budget op te leveren. Dus blijf rustig en laat ons al het werk voor je doen tot je tevreden bent."
+  },
+  "homeBestInTown": {
+    "title": "Upgrade de bescherming van uw voertuig en ervaar gemoedsrust met onze duurzame en hoogwaardige carports",
+    "desc1": "Vergeet het weerbericht te checken en je constant zorgen te maken over het beschermen van je auto in barre weersomstandigheden. Bij Motion Products bieden we duurzame en stijlvolle carports die uw voertuig perfect beschermen tegen de elementen.",
+    "desc2": "Aangezien uw auto uw waardevolle bezit is en de beste bescherming verdient, zorgen wij ervoor dat uw auto's de ultieme bescherming krijgen tegen barre weersomstandigheden, schade door de zon en harde wind en sneeuw. Bovendien zijn onze carports gemaakt van materialen van de hoogste kwaliteit, waardoor ze bestand zijn tegen alle weersomstandigheden en jarenlang in topconditie blijven.",
+    "desc3": "En dat is niet alles! Met onze carports kunt u de uitstraling van uw woning verbeteren. Het maakt niet uit welk ontwerp of welke kleur je wilt, je kunt het beste kiezen dat je ruimte opfleurt. Van traditionele tot moderne stijlen, we hebben een reeks carports die passen bij elke bouwstijl.",
+    "desc4": "Bied uw auto de beste bescherming. Neem direct contact met ons op en koop nu uw carport!"
+  },
+  "homeHomeExclusive": {
+    "title1": "Onze exclusieve carport",
+    "desc1": "Er zijn veel variaties op passages van Lorem Ipsum beschikbaar, maar de meeste zijn gewijzigd.",
+    "btn1": "Ontdek meer",
+    "title2": "Onze exclusieve meubels",
+    "desc2": "Er zijn veel variaties op passages van Lorem Ipsum beschikbaar, maar de meeste zijn gewijzigd.",
+    "btn2": "Ontdek meer"
+  },
+  "footer": {
+    "title": "Blijf met ons verbonden",
+    "desc": "Mijn nieuwe carport ziet er niet alleen geweldig uit, maar het heeft ook zoveel waarde toegevoegd aan mijn huis.",
+    "sub": "Abonneren",
+    "aep": "Over Emotieproducten",
+    "aep_1": "Over ons",
+    "aep_2": "Contact ons",
+    "aep_3": "algemene voorwaarden",
+    "aep_4": "Privacy beleid",
+    "cs": "Klanten service",
+    "cs_1": "Over uw bestelling",
+    "cs_2": "Wensenlijst",
+    "cs_3": "Vergelijkingslijst",
+    "cus": "Contact Ons",
+    "cus_1": "Schoolstraat 52/2",
+    "cus_2": "Ma-Zo 9.00 - 18.00",
+    "cus_3": "+9978-4578-145",
+    "cus_4": "hello@emotionproducts.com",
+    "footer_down": "© 2020 - 2023 Carpoort | Alle rechten voorbehouden"
+  },
+  "mchair": {
+    "topBanner": {
+      "title": "Ontvang een volledige lichaamsmassage",
+      "desc1": "Heeft u zich ooit afgevraagd of een massagestoel uw therapeut kan zijn die uw lichaam kan ontspannen en kan bijdragen aan een beter humeur? Met deze massagestoel kunt u uw nek en romp laten rusten. Gecombineerd met knijp- en trekbewegingen ontlast het je vermoeide nek- en schouderspieren na een lange dag op kantoor. Het helpt je van de lasten af te komen en de spanning en pijn te vergeten. Verder verbetert het de flexibiliteit en mobiliteit van de thoracale spieren. Bovendien versterkt het de paraspinale spieren. Dat gezegd hebbende, kunt u langetermijneffecten op de houding krijgen en rugpijn voorkomen.",
+      "desc2": "En dat is nog niet alles! Het stimuleert drukpunten in uw lichaam en verbetert de bloedstroom om de ontspanning van de onderste ledematen te vergroten."
+    },
+    "uses": {
+      "title": "Wij zorgen ervoor dat we u een premium service kunnen bieden",
+      "t1": "Ontspan in onze kantoormassagestoel en vergroot uw productiviteit",
+      "d1": "Verbeter het welzijn op kantoor en overwin strikte deadlines terwijl u uw lichaam verjongt met onze kantoormassagestoel. Omdat hij ergonomisch is ontworpen, voelt u zich verfrist met deze massagestoel. Voeg deze massagestoel toe aan uw winkelwagen en ontdek ontspanning als nooit tevoren!",
+      "t2": "Verhoog uw huiscomfort, ontspan en verjong met onze thuisstoel ",
+      "d2": "Transformeer uw huis in een serene oase met onze geavanceerde massagestoel. Deze massagestoel is gemaakt van hoogwaardig materiaal en beschikt over een scala aan functies en is ontworpen om spanning te verlichten en uw lichaam te ontspannen. deze thuismassagestoel om meteen te genieten van het toppunt van comfort!",
+      "t3": "State-of-the-art gymmassagestoel om uw sportschoolsessies te maximaliseren",
+      "d3": "Wat is beter dan een massagestoel die het herstel van uw training versnelt? Met onze sportschoolmassagestoel kunt u uw fitnessreis verbeteren zonder vermoeid te raken. Neem contact met ons op om onze gymmassagestoel te bestellen en ervaar ultieme ontspanning!",
+      "t4": "Neem afscheid van vermoeidheid met onze luchthavenmassagestoel!",
+      "d4": "Laat u niet belasten door vertraagde vluchten en lange tussenstops. Beter nog: ontstress met onze luchthavenmassagestoel en vind troost te midden van de chaos van vluchten. Koop deze luchthavenmassagestoel en ontspan terwijl u wacht!"
+    },
+    "bestMeterials": {
+      "title": "Wij bieden u de beste materialen en kwaliteitsproducten",
+      "t1": "Airbags om de ultieme ontspanning te ervaren",
+      "d1": "Hoe gespannen uw armspieren ook zijn, met de armairbags ervaart u gerichte druk die stijfheid en spanning helpt verminderen. Zeg dus vaarwel tegen ongemak en ontspan uw stijve armen.",
+      "t2": "Draadloos opladen voor gemak",
+      "d2": "Deze massagestoel wordt geleverd met draadloze oplaadmogelijkheden. Of u nu uw telefoon of een ander apparaat wilt opladen, met deze massagestoel kunt u elk apparaat op de stoel zetten terwijl u van uw massage geniet. Maak je dus geen zorgen meer over een lage batterijduur; deze massagestoel heeft jou gedekt. Met deze massagestoel krijgt u het beste van twee werelden: gemak en ontspanning.",
+      "t3": "Sneltoetsen voor eenvoudige aanpassing",
+      "d3": "Met sneltoetsen kunt u uw massage-ervaring personaliseren door de instellingen van de massagestoel aan uw behoeften aan te passen. Met deze toetsen kunt u eenvoudig de modus en intensiteit van de massage aanpassen. Bovendien kunt u hiermee de muziek of andere instellingen met slechts een paar klikken wijzigen.",
+      "t4": "Zijpaneel voor gemakkelijke toegang",
+      "d4": "Als je de instellingen naar wens wilt aanpassen zonder dat je hoeft op te staan, dan is het zijpaneel iets voor jou. Hierdoor heeft u toegang tot alle functies van de stoel terwijl u in de perfecte positie blijft om te ontspannen."
+    },
+    "exclusivePackages": {
+      "title": "Neem een kijkje op onze exclusieve projecten.",
+      "prd1": {
+        "title": "Zet de eerste stap naar een comfortabeler leven en bestel nu meteen uw massagestoel!",
+        "desc": "Het is tijd om de beste investering voor jezelf te maken met deze massagestoel. U kunt vandaag nog contact met ons opnemen en de massagestoel bestellen om de beste ervaring te krijgen zonder uw portemonnee te deuken!",
+        "btn": "Project Details"
+      }
+    },
+    "vdo": {
+      "title": "Premium kwaliteit en let op onze populairste carportvideo's"
+    },
+    "singleMChar": {
+      "title": "MS-131 PLUS Massage Stoel",
+      "itemNo": "Artikel nr. 117195",
+      "itemName": "MS-131 PLUS Massage Stoel | Touch screen",
+      "shortDesc": "De Monticello Lantern combineert op smaakvolle wijze modern design met een vleugje industriële flair en is een vernieuwde klassieker.",
+      "rdm":"Lees verder",
+      "wholStore":"EMOTION PRODUCTS IS EEN GROOTHANDEL VAN BEDRIJF TOT BEDRIJF,",
+      "pLogin":"LOG ALSJEBLIEFT IN",
+      "tcpOrder":"OM PRIJZEN TE ZIEN EN EEN BESTELLING TE PLAATSEN.",
+      "bsCus":"GEEN ZAKELIJKE KLANT?",
+      "findDealer":"VIND DE DICHTSTBIJZIJNDE DEALER VAN EMOTION PRODUCTEN",
+      "addInfo": {
+        "t1": "2 JAAR GARANTIE",
+        "t2": "INNOVATIEF ONTWERP",
+        "t3": "WERELDWIJDE VERZENDING",
+        "t4": "PERSOONLIJK ADVIES IN ONZE SHOWROOM"
+      },
+      "specifications": {
+        "title": "SPECIFICATIES",
+        "key1": "Airbag",
+        "val1": "Ja",
+        "key2": "Voetensteun",
+        "val2": "Ja",
+        "key3": "Afstandsbediening",
+        "val3": "Ja",
+        "key4": "Bluetooth-luidsprekers",
+        "val4": "Touch screen",
+        "key5": "Gewicht massagestoel",
+        "val5": "Hoofdgedeelte: N.W.: 128 kg, G.W.: 146 K",
+        "key6": "Voet",
+        "val6": "N.W.: 25 Kg, G.W.: 28 Kg",
+        "key7": "Afmetingen (L×H×B)",
+        "val7": "1460×846×1245 mm",
+        "key8": "Voeding en wattage",
+        "val8": "110-240V~ en 200 W"
+      },
+      "descriptions": {
+        "title": "BESCHRIJVING",
+        "desc1": "Heeft u gewacht op de dag waarop u de ultieme ontspanning krijgt na een lange, vermoeiende werkdag? Met de MS-131 PLUS massagestoel hebben wij de oplossing voor u! Het helpt uw gespannen spieren te ontspannen en vermoeidheid te verminderen.",
+        "desc2": "Deze massagestoel zit boordevol geavanceerde functies. Hij wordt geleverd met een verstelbare voeten- en beensteun, zodat u in een ontspannen houding kunt zitten. Ontworpen met hoogwaardige materialen en voorzien van de nieuwste technologie om u optimaal comfort te bieden. U kunt naar uw favoriete muziek of podcasts luisteren terwijl u zich in een perfecte ontspanningspositie bevindt. Het biedt een perfecte combinatie van comfort en design.",
+        "desc3": "Met een afstandsbediening met touchscreen die alles intuïtief en eenvoudig maakt. U kunt elke massagemodus kiezen, smartphones aansluiten via Bluetooth en met slechts één aanraking toegang krijgen tot alle functies."
+      }
+    }
+  },
+  "ourGallery": {
+    "title": "Onze galerij",
+    "sTitle": "Dit is onze galerij, kijk eens !",
+    "btn": "Bekijk alles"
+  },
+  "greeting": "Hallo, wereld!",
+  "content": "Dit is een React-website.",
+  "valueableSpeech": "Waardevolle toespraak van onze CEO en oprichter",
+  "welcomeMessage": "Willkommen, klicken Sie auf den Globus, um die Sprache zu ändern."
+}

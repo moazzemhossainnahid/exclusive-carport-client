@@ -1,0 +1,52 @@
+[
+    {
+        "id": "TimelessFurnishings",
+        "project": "Project 01",
+        "mainTtl": "Where Elegance Meets Every Corner of Your Space",
+        "mainDesc": "A collection of furniture that embodies a timeless charm, seamlessly merging aesthetics with functionality. Enrich your living spaces with pieces designed to endure trends and make a lasting impression.",
+        "title": "Timeless Furnishings ",
+        "category": "furniture",
+        "item": "Item no 117191",
+        "itemDesc": "Timeless Furnishings | Elegance Meets Every Corner of Your Space",
+        "shortDesc": "A collection of furniture that embodies a timeless charm, seamlessly merging aesthetics with functionality. Enrich your living spaces with pieces designed to endure trends and make a lasting impression.",
+        "price": 5000,
+        "images": {
+            "banner": "https://i.ibb.co/ZGDsvJG/Whats-App-ddd-Image-2023-05-18-at-15-42-20.jpg",
+            "showcase": [
+                "https://i.ibb.co/ZGDsvJG/Whats-App-ddd-Image-2023-05-18-at-15-42-20.jpg",
+                "https://i.ibb.co/Lv8Qsn7/Whats-App-Image-2023-05-18-fdat-15-42-22.jpg",
+                "https://i.ibb.co/VMvrw25/Whats-App-Imagedd-2023-05-18-at-15-42-21.jpg",
+                "https://i.ibb.co/XLqrmyS/Whats-App-Image-2023-05-18-at-1d5-42-21.jpg"
+            ]
+        },
+        "checkers": [
+            "5 YEARS WARRANTY",
+            "INNOVATIVE DESIGN",
+            "WORLDWIDE SHIPMENT",
+            "PERSONAL ADVICE IN OUR SHOWROOM"
+        ],
+        "descriptions": {
+            "desc1": "Timeless Furnishings is a testament to meticulous craftsmanship. Each piece is a masterpiece crafted by skilled artisans, ensuring a level of artistry that goes beyond mere furniture – it's an expression of refined taste.",
+            "desc2": "Step into a world of enduring elegance with Timeless Furnishings – where each piece is a manifestation of timeless allure. Redefine your living and working spaces with furniture that transcends trends. Explore our collection today and let your surroundings resonate with the lasting charm of Timeless Furnishing."
+        },
+        "specifications": [
+            {
+                "key": "Innovative Design",
+                "value": "Yes"
+            },
+            {
+                "key": "Down Payment",
+                "value": "Yes"
+            },
+            {
+                "key": "WorldWide Shipping",
+                "value": "Yes"
+            },
+            {
+                "key": "Multiple Size",
+                "value": "Yes"
+            }
+
+        ]
+    }
+]
