@@ -37,7 +37,9 @@ const TopBanner = () => {
                     <h1 className="text-2xl md:text-5xl font-bold text-white mb-2 md:mb-4">KUKU  Maker</h1>
                     <p className="md:text-lg text-gray-300">Take Control Of Your Coffee Taste</p>
                     <h3 className="md:text-xl text-white md:pt-3">Pre-order now to secure a <span className="text-[#00C2FF] font-bold text-xl md:text-2xl italic">50%</span> <br /> discount on our limited early bird offer.</h3>
+                    <Link to="/productdetails/carport/ShadeSwift">
                     <button className="btn btn-sm md:btn-md text-xs md:text-md bg-[#00C2FF] text-white border-0 px-7 my-2 md:my-5 py-2 rounded">Pre-order Now</button>
+                    </Link>
                     </div>
                 </div>
             </div>
