@@ -45,7 +45,7 @@ function App() {
   return (
     <>
       <div className="w-full max-w-full mx-auto">
-        {(window.location.pathname !== '/cpanel' && window.location.pathname !== '/cpanel/addashboard' && window.location.pathname !== '/cpanel/musers' && window.location.pathname !== '/cpanel/mproducts' && window.location.pathname !== '/cpanel/morders' && window.location.pathname !== '/cpanel/mappointments') && <Header languages={languages} currentLanguageCode={currentLanguageCode} />}
+        {/* {(window.location.pathname !== '/cpanel' && window.location.pathname !== '/cpanel/addashboard' && window.location.pathname !== '/cpanel/musers' && window.location.pathname !== '/cpanel/mproducts' && window.location.pathname !== '/cpanel/morders' && window.location.pathname !== '/cpanel/mappointments') && <Header languages={languages} currentLanguageCode={currentLanguageCode} />} */}
         {/* <Header /> */}
         <div className="">
           <Routes>
