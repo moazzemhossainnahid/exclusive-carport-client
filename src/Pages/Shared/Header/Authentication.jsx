@@ -43,7 +43,7 @@ const Authentication = () => {
                     <ul tabIndex="0" className="mt-3 p-2 gap-1 shadow menu menu-compact dropdown-content text-gray-600 bg-slate-200 rounded-box w-52">
                         <li> <NavLink reloadDocument to="/profile" className="justify-between"> Profile <span className="badge">New</span> </NavLink> </li>
                         {
-                            (user && admin) && <li> <NavLink reloadDocument className={({ isActive }) => (isActive ? 'text-[#0f52ba] duration-300 border-b-2 border-[#0f52ba]' : 'text-gray-800 duration-100')} to="/cpanel">Control Panel</NavLink></li>
+                            (user && admin) && <li> <NavLink reloadDocument className={({ isActive }) => (isActive ? 'text-[#0f52ba] duration-300 border-b-2 border-[#0f52ba]' : 'text-gray-800 duration-100')} to="/adminpanel">Control Panel</NavLink></li>
                         }
                         <li><button onClick={handleSignOut}>Sign Out</button></li>
                     </ul>
