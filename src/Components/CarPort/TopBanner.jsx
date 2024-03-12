@@ -14,7 +14,7 @@ const TopBanner = () => {
             <div className="relative">
                 {/* Video Background */}
                 <video className="w-full h-full object-cover" autoPlay muted loop>
-                    <source src="https://media.exclusivecarport.com/videos/1710240441269-409313701-Protect_Your_Vehicle.mp4" type="video/mp4" />
+                    <source src="/Protect-Your-Vehicle.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
 

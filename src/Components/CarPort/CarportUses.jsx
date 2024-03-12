@@ -6,7 +6,7 @@ const CarportUses = () => {
 
     return (
         <div className='bg-[#ffffff] py-7 h-full'>
-            <div className="flex flex-col md:flex-row justify-between items-center gap-3 w-full mx-auto pt-10">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-3 w-full mx-auto">
                 <div data-aos="fade-down" data-aos-duration="1000" className="w-full md:w-2/6 mx-auto relative">
                     <img src="https://i.ibb.co/z582wCb/Screenshot-10.png" alt="" className="w-5/6 h-full my-10 relative border border-primary  flex justify-center items-center mx-auto" />
                 </div>
