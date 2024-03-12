@@ -7,14 +7,14 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyAZpf_dLERSax6F12HIsy9zLwm4B3p_kzs",
-    authDomain: "emotion-products.firebaseapp.com",
-    projectId: "emotion-products",
-    storageBucket: "emotion-products.appspot.com",
-    messagingSenderId: "840322207530",
-    appId: "1:840322207530:web:0ee4a1094f18db8c411853"
+    apiKey: "AIzaSyBbfPlZSCWqRRceNy7WKelRyzfmPwuR2To",
+    authDomain: "exclusive-carport.firebaseapp.com",
+    projectId: "exclusive-carport",
+    storageBucket: "exclusive-carport.appspot.com",
+    messagingSenderId: "667086410366",
+    appId: "1:667086410366:web:8c0e248306e489ad57be2f"
 };
-   
+
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
