@@ -13,7 +13,7 @@ const TopBanner = () => {
             {/* Banner Background */}
             <div className="relative">
                 {/* Video Background */}
-                <video className="w-full h-full object-cover" autoPlay muted loop>
+                <video className="w-full h-[80vh] md:h-full object-cover" autoPlay muted loop>
                     <source src="/Protect-Your-Vehicle.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
@@ -22,7 +22,7 @@ const TopBanner = () => {
                 <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent opacity-75"></div>
 
                 {/* Navbar */}
-                <nav className="absolute top-0 left-0 right-0 flex items-center justify-between md:justify-between px-6 py-3 md:py-7 text-white">
+                <nav className="absolute top-0 left-0 right-0 flex items-center justify-between md:justify-between px-6 py-1 md:py-3 text-white">
                     {/* Logo */}
                     <div className="flex items-center">
                         <Link to="/"><img src="/logo_carport.png" alt="Logo" className="h-10 md:h-16" /></Link>
@@ -41,14 +41,14 @@ const TopBanner = () => {
                 </nav>
 
                 {/* Foreground Text */}
-                <div className="w-full absolute top-1/2 left-1/2 md:left-32 transform -translate-x-1/2 md:-translate-x-0 -translate-y-1/2 z-10">
-                    <div className="text-center md:text-start w-full">
-                        <h1 className="text-2xl md:text-5xl font-bold text-white mb-2 md:mb-4">SHADESWIFT</h1>
-                        <p className="md:text-lg text-white">where style and protection for your vehicle come together!</p>
-                        <p className="text-sm text-gray-300 pt-3">Discover the perfect mix of sleep design and reliable protection <br /> with our shadeswift carport.</p>
-                        <h3 className="md:text-xl text-white md:pt-7">Pre-order now and grab one shadeswift carport with <span className="text-orange-600 font-bold text-xl md:text-2xl italic">48%</span> <br /> discount.</h3>
+                <div className="w-full absolute top-1/3 left-1/2 md:left-20 mt-16 md:mt-10 transform -translate-x-1/2 md:-translate-x-0 -translate-y-1/2 z-10">
+                    <div className="text-center md:text-start w-full px-7 md:px-0">
+                        <h1 className="text-2xl md:text-5xl font-bold text-white md:mb-4">SHADESWIFT</h1>
+                        <p className="text-md md:text-lg font-sans capitalize font-semibold text-white">where style and protection for your vehicle come together!</p>
+                        <p className="text-sm text-gray-300 pt-2 md:pt-3">Discover the perfect mix of sleep design and reliable protection <br /> with our shadeswift carport.</p>
+                        <h3 className="text-sm md:text-xl text-white pt-7">Pre-order now and grab one shadeswift carport with <span className="text-[#F99E33] font-bold text-2xl md:text-2xl italic">48%</span> <br /> discount.</h3>
                         <Link to="/productdetails/carport/ShadeSwift">
-                            <button className="btn btn-sm text-xs md:text-md bg-orange-400 capitalize text-black hover:text-white border-0 px-7 my-2 md:my-5 py-2 rounded">Pre order on indiegogo</button>
+                            <button className="btn btn-md md:btn-md text-xs md:text-md bg-[##F99E33] dark:bg-[#F99E33] capitalize text-black hover:text-white border-0 px-20 md:px-32 my-2 md:my-5 py-2 rounded">Pre order on indiegogo</button>
                         </Link>
                     </div>
                 </div>
