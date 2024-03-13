@@ -46,9 +46,9 @@ const TopBanner = () => {
                         <h1 className="text-2xl md:text-5xl font-bold text-white md:mb-4">SHADESWIFT</h1>
                         <p className="text-md md:text-lg font-sans capitalize font-semibold text-white">where style and protection for your vehicle come together!</p>
                         <p className="text-sm text-gray-300 pt-2 md:pt-3">Discover the perfect mix of sleep design and reliable protection <br /> with our shadeswift carport.</p>
-                        <h3 className="text-sm md:text-xl text-white pt-7">Pre-order now and grab one shadeswift carport with <span className="text-[#F99E33] font-bold text-2xl md:text-2xl italic">48%</span> <br /> discount.</h3>
+                        <h3 className="text-sm md:text-xl text-white pt-7">Pre-order now and grab one shadeswift carport with <span className="text-[#00C2FF] font-bold text-2xl md:text-2xl italic">48%</span> <br /> discount.</h3>
                         <Link to="/productdetails/carport/ShadeSwift">
-                            <button className="btn btn-md md:btn-md text-xs md:text-md bg-[##F99E33] dark:bg-[#F99E33] capitalize text-black hover:text-white border-0 px-20 md:px-32 my-2 md:my-5 py-2 rounded">Pre order on indiegogo</button>
+                            <button className="btn btn-md md:btn-md text-xs md:text-md bg-[#00C2FF] dark:bg-[#00C2FF] capitalize text-black hover:text-white border-0 px-20 md:px-32 my-2 md:my-5 py-2 rounded">Pre order on indiegogo</button>
                         </Link>
                     </div>
                 </div>
