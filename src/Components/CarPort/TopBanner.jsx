@@ -19,7 +19,7 @@ const TopBanner = () => {
                 </video>
 
                 {/* Gradient Shadow Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent opacity-75"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-black to-[#00000080] opacity-75"></div>
 
                 {/* Navbar */}
                 <nav className="absolute top-0 left-0 right-0 flex items-center justify-between md:justify-between px-6 py-1 md:py-3 text-white">
@@ -41,14 +41,14 @@ const TopBanner = () => {
                 </nav>
 
                 {/* Foreground Text */}
-                <div className="w-full absolute top-1/3 left-1/2 md:left-20 mt-16 md:mt-10 transform -translate-x-1/2 md:-translate-x-0 -translate-y-1/2 z-10">
+                <div className="w-full absolute top-1/3 left-1/2 md:left-20 mt-16 md:mt-20 transform -translate-x-1/2 md:-translate-x-0 -translate-y-1/2 z-10">
                     <div className="text-center md:text-start w-full px-7 md:px-0">
                         <h1 className="text-2xl md:text-5xl font-bold text-white md:mb-4">SHADESWIFT</h1>
-                        <p className="text-md md:text-lg font-sans capitalize font-semibold text-white">where style and protection for your vehicle come together!</p>
-                        <p className="text-sm text-gray-300 pt-2 md:pt-3">Discover the perfect mix of sleep design and reliable protection <br /> with our shadeswift carport.</p>
-                        <h3 className="text-sm md:text-xl text-white pt-7">Pre-order now and grab one shadeswift carport with <span className="text-[#00C2FF] font-bold text-2xl md:text-2xl italic">48%</span> <br /> discount.</h3>
+                        <p className="text-md md:text-lg  font-[Poppins] capitalize text-[#ECECEC]">Where Style And Protection For Your Vehicle <br /> Come Together!</p>
+                        <p className="text-md text-[#ABABAB] italic font-[Poppins]  pt-2 md:pt-3">Discover the perfect mix of sleep design and reliable <br /> protection with our shadeswift carport.</p>
+                        <h3 className="text-sm md:text-xl text-white font-[Poppins] pt-7">Pre-order now and grab one shadeswift carport with <span className="text-[#00C2FF] font-sans font-bold text-2xl md:text-3xl italic">48%</span> <br /> discount.</h3>
                         <Link to="/productdetails/carport/ShadeSwift">
-                            <button className="btn btn-md md:btn-md text-xs md:text-md bg-[#00C2FF] dark:bg-[#00C2FF] capitalize text-black hover:text-white border-0 px-20 md:px-32 my-2 md:my-5 py-2 rounded">Pre order on indiegogo</button>
+                            <button className="btn btn-md md:btn-md text-xs md:text-md bg-[#00C2FF] dark:bg-[#00C2FF] capitalize text-black hover:text-white border-0 px-20  my-2 md:my-5 py-2 rounded">Pre-Order now on Kickstarter</button>
                         </Link>
                     </div>
                 </div>
