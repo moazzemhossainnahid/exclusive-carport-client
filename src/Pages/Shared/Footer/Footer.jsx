@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { FaClock, FaEnvelope, FaFacebook, FaInstagram, FaLinkedin, FaMapMarkedAlt, FaMapMarkerAlt, FaPhoneAlt, FaPinterest, FaSkype, FaTwitter } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -56,12 +57,13 @@ const Footer = () => {
                                     <p>{t('footer.footer_down')}</p>
                                 </div>
                                 <div className="flex gap-3 pt-5 justify-center items-center">
-                                    <FaFacebook className='text-2xl text-gray-500 hover:text-white duration-200 cursor-pointer' />
-                                    <FaInstagram className='text-2xl text-gray-500 hover:text-white duration-200 cursor-pointer' />
-                                    <FaSkype className='text-2xl text-gray-500 hover:text-white duration-200 cursor-pointer' />
-                                    <FaTwitter className='text-2xl text-gray-500 hover:text-white duration-200 cursor-pointer' />
-                                    <FaPinterest className='text-2xl text-gray-500 hover:text-white duration-200 cursor-pointer' />
-                                    <FaLinkedin className='text-2xl text-gray-500 hover:text-white duration-200 cursor-pointer' />
+                                    <Link to="https://www.facebook.com/CarportShadeSwift" target="_blank"><FaFacebook className='text-2xl text-gray-500 hover:text-white duration-200 cursor-pointer' /></Link>
+                                    <Link to="https://www.instagram.com/exclusivecarport" target="_blank"><FaInstagram className='text-2xl text-gray-500 hover:text-white duration-200 cursor-pointer' /></Link>
+                                    <Link to="https://www.pinterest.com/exclusivecarport" target="_blank"><FaPinterest className='text-2xl text-gray-500 hover:text-white duration-200 cursor-pointer' /></Link>
+                                    
+                                    {/* <FaSkype className='text-2xl text-gray-500 hover:text-white duration-200 cursor-pointer' /> */}
+                                    {/* <FaTwitter className='text-2xl text-gray-500 hover:text-white duration-200 cursor-pointer' /> */}
+                                    {/* <FaLinkedin className='text-2xl text-gray-500 hover:text-white duration-200 cursor-pointer' /> */}
                                 </div>
                             </div>
                             {/* <div className="w-full flex justify-center gap-3 items-center pt-3">
