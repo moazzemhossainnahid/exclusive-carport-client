@@ -8,6 +8,7 @@ import UseToken from '../../../Hooks/useToken';
 import { GiCancel } from "react-icons/gi";
 import { useForm } from 'react-hook-form';
 import { toast } from 'react-toastify';
+import { Helmet } from 'react-helmet';
 
 const Signin = () => {
     const [signInWithEmailAndPassword, suser, sloading, serror] = useSignInWithEmailAndPassword(auth);
@@ -77,10 +78,22 @@ const Signin = () => {
 
     return (
         <div className="h-full bg-white w-full px-4">
+            <Helmet>
+                {/* Add Google tag (gtag.js) */}
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-C4HJYE0Z26"></script>
+                <script>
+                    {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-C4HJYE0Z26');
+          `}
+                </script>
+            </Helmet>
             <div className="flex flex-col items-center justify-center">
                 <div className="bg-white rounded md:w-2/3 w-full p-10 ">
                     <div className="w-full mx-auto py-7">
-                        <img src="https://i.ibb.co/7VySsQR/logo.png" alt="" className="w-52 mx-auto" />
+                        <img src="/logo_carport.png" alt="" className="w-32 mx-auto" />
                     </div>
                     <p tabIndex={0} role="heading" aria-label="Login to your account" className="text-2xl text-center font-semibold tracking-widest leading-6 text-gray-800">
                         Account Sign In

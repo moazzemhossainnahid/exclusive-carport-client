@@ -4,6 +4,7 @@ import { useForm } from 'react-hook-form';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import auth from '../../../../../firebase.init';
 import useProfile from '../../../../Hooks/useProfile';
+import { Helmet } from 'react-helmet';
 const Profile = () => {
     const { register, handleSubmit, reset } = useForm();
     const [user] = useAuthState(auth);
@@ -66,6 +67,18 @@ const Profile = () => {
 
     return (
         <section className='bg-gradient-to-l from-secondary to-accent h-full w-full'>
+            <Helmet>
+                {/* Add Google tag (gtag.js) */}
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-C4HJYE0Z26"></script>
+                <script>
+                    {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-C4HJYE0Z26');
+          `}
+                </script>
+            </Helmet>
 
             <div className='w-5/6 mx-auto pb-20'>
 

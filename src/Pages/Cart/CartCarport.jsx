@@ -6,7 +6,8 @@ import auth from '../../../firebase.init';
 import PayButton from '../../Components/Others/PayButton/PayButton';
 import { toast } from 'react-toastify';
 import UseCarport from '../../Hooks/useCarport';
- 
+import { Helmet } from 'react-helmet';
+
 const CartCarport = () => {
     const { id } = useParams();
     const [carports] = UseCarport();
@@ -72,6 +73,18 @@ const CartCarport = () => {
 
     return (
         <div className='container z-30 w-full'>
+            <Helmet>
+                {/* Add Google tag (gtag.js) */}
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-C4HJYE0Z26"></script>
+                <script>
+                    {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-C4HJYE0Z26');
+          `}
+                </script>
+            </Helmet>
             <div>
                 <div className="w-full h-full bg-black sticky-0" id="chec-div">
                     <div className="w-full relative h-full transform translate-x-0 transition ease-in-out duration-700" id="checkout">
