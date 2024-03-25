@@ -31,23 +31,23 @@ const Footer = () => {
                         <footer className="footer p-10 pb-0 bg-transparent text-base-200">
                             <div>
                                 <span className="text-xl font-bold text-gray-300">{t('footer.aep')}</span>
-                                <a className="link link-hover">{t('footer.aep_1')}</a>
-                                <a className="link link-hover">{t('footer.aep_2')}</a>
-                                <a className="link link-hover">{t('footer.aep_3')}</a>
-                                <a className="link link-hover">{t('footer.aep_4')}</a>
+                                <Link to="#" className="link link-hover">{t('footer.aep_1')}</Link>
+                                <Link to="#" className="link link-hover">{t('footer.aep_2')}</Link>
+                                <Link to="#" className="link link-hover">{t('footer.aep_3')}</Link>
+                                <Link to="#" className="link link-hover">{t('footer.aep_4')}</Link>
                             </div>
                             <div>
                                 <span className="text-xl font-bold text-gray-300">{t('footer.cs')}</span>
-                                <a className="link link-hover">{t('footer.cs_1')}</a>
-                                <a className="link link-hover">{t('footer.cs_2')}</a>
-                                <a className="link link-hover">{t('footer.cs_3')} </a>
+                                <Link to="#" className="link link-hover">{t('footer.cs_1')}</Link>
+                                <Link to="#" className="link link-hover">{t('footer.cs_2')}</Link>
+                                <Link to="#" className="link link-hover">{t('footer.cs_3')} </Link>
                             </div>
                             <div>
                                 <span className="text-xl font-bold text-gray-300">{t('footer.cus')}</span>
-                                <a className="link link-hover flex gap-2"> <FaMapMarkerAlt /> {t('footer.cus_1')}</a>
-                                <a className="link link-hover flex gap-2"> <FaClock /> {t('footer.cus_2')}</a>
-                                <a className="link link-hover flex gap-2"> <FaPhoneAlt /> {t('footer.cus_3')}</a>
-                                <a className="link link-hover flex gap-2"> <FaEnvelope /> {t('footer.cus_4')}</a>
+                                <a href="#" className="link link-hover flex gap-2"> <FaMapMarkerAlt /> {t('footer.cus_1')}</a>
+                                <a href="#" className="link link-hover flex gap-2"> <FaClock /> {t('footer.cus_2')}</a>
+                                <a href="#" className="link link-hover flex gap-2"> <FaPhoneAlt /> {t('footer.cus_3')}</a>
+                                <a href="#" className="link link-hover flex gap-2"> <FaEnvelope /> {t('footer.cus_4')}</a>
                             </div>
                         </footer>
                         <div className="px-10 py-4 bg-transparent text-base-200">
@@ -68,13 +68,7 @@ const Footer = () => {
                                     </a>
                                 </div>
                             </div>
-                            {/* <div className="w-full flex justify-center gap-3 items-center pt-3">
-                                <img src="https://i.ibb.co/StPWWYS/aexpress.png" alt="" className="w-12" />
-                                <img src="https://i.ibb.co/hDfbhXw/pngimg-com-visa-PNG18.png" alt="" className="w-12" />
-                                <img src="https://i.ibb.co/3FHRYSJ/mcard.png" alt="" className="w-12" />
-                                <img src="https://i.ibb.co/1T5H2r5/gpay.png" alt="" className="w-12 bg-gray-200 px-2 h-8 rounded" />
-                                <img src="https://i.ibb.co/1fGV3N5/Paypal.png" alt="" className="w-12" />
-                            </div> */}
+
                         </div>
                     </div>
                 </div>
