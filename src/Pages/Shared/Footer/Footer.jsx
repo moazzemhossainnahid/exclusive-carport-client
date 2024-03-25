@@ -19,7 +19,7 @@ const Footer = () => {
                         <div className="form-control w-full flex justify-center">
                             <div className="input-group w-full flex justify-center">
                                 <input type="text" placeholder="Enter Email Address" className="input z-0 input-bordered" />
-                                <button className="btn btn-square w-28 text-white bg-[#00C2FF]">
+                                <button className="btn btn-square hover:text-white w-28 text-black bg-[#00C2FF]">
                                     {t('footer.sub')}
                                 </button>
                             </div>
@@ -57,13 +57,15 @@ const Footer = () => {
                                     <p>{t('footer.footer_down')}</p>
                                 </div>
                                 <div className="flex gap-3 pt-5 justify-center items-center">
-                                    <Link to="https://www.facebook.com/CarportShadeSwift" target="_blank"><FaFacebook className='text-2xl text-gray-500 hover:text-white duration-200 cursor-pointer' /></Link>
-                                    <Link to="https://www.instagram.com/exclusivecarport" target="_blank"><FaInstagram className='text-2xl text-gray-500 hover:text-white duration-200 cursor-pointer' /></Link>
-                                    <Link to="https://www.pinterest.com/exclusivecarport" target="_blank"><FaPinterest className='text-2xl text-gray-500 hover:text-white duration-200 cursor-pointer' /></Link>
-                                    
-                                    {/* <FaSkype className='text-2xl text-gray-500 hover:text-white duration-200 cursor-pointer' /> */}
-                                    {/* <FaTwitter className='text-2xl text-gray-500 hover:text-white duration-200 cursor-pointer' /> */}
-                                    {/* <FaLinkedin className='text-2xl text-gray-500 hover:text-white duration-200 cursor-pointer' /> */}
+                                    <a href="https://www.facebook.com/CarportShadeSwift" target="_blank" aria-label="Visit our Facebook page">
+                                        <FaFacebook className='text-2xl text-gray-500 hover:text-white duration-200 cursor-pointer' />
+                                    </a>
+                                    <a href="https://www.instagram.com/exclusivecarport" target="_blank" aria-label="Visit our Instagram page">
+                                        <FaInstagram className='text-2xl text-gray-500 hover:text-white duration-200 cursor-pointer' />
+                                    </a>
+                                    <a href="https://www.pinterest.com/exclusivecarport" target="_blank" aria-label="Visit our Pinterest page">
+                                        <FaPinterest className='text-2xl text-gray-500 hover:text-white duration-200 cursor-pointer' />
+                                    </a>
                                 </div>
                             </div>
                             {/* <div className="w-full flex justify-center gap-3 items-center pt-3">
