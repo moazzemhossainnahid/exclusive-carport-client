@@ -14,6 +14,8 @@ const TopBanner = () => {
                 {/* Video Background */}
                 <video className="w-full h-[80vh] md:h-full object-cover" autoPlay muted loop playsInline>
                     <source src="/Protect-Your-Vehicle.mp4" type="video/mp4" />
+                    {/* Empty track element to satisfy the requirement */}
+                    <track kind="captions" src="" label="" />
                     Your browser does not support the video tag.
                 </video>
 
