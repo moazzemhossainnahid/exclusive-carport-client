@@ -1,6 +1,5 @@
 import React from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
-import { FaBars, FaCartPlus, FaSearch } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import Authentication from '../../Pages/Shared/Header/Authentication';
@@ -13,7 +12,7 @@ const TopBanner = () => {
             {/* Banner Background */}
             <div className="relative">
                 {/* Video Background */}
-                <video className="w-full h-[80vh] md:h-full object-cover" autoPlay muted loop>
+                <video className="w-full h-[80vh] md:h-full object-cover" autoPlay muted loop playsInline>
                     <source src="/Protect-Your-Vehicle.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
@@ -30,13 +29,10 @@ const TopBanner = () => {
 
                     {/* Icons */}
                     <div className="flex items-center gap-3 md:gap-7">
-                        <FaSearch className='cursor-pointer hover:text-gray-300' />
-                        <FaCartPlus className='cursor-pointer hover:text-gray-300' />
+                        <svg xmlns="http://www.w3.org/2000/svg" className="cursor-pointer hover:text-gray-300" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="..."/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" className="cursor-pointer hover:text-gray-300" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="..."/></svg>
 
-                        {
-                            user ? <div className="md:pl-5"><Authentication /></div>
-                                : <FaBars className='cursor-pointer hover:text-gray-300' />
-                        }
+                        {user ? <div className="md:pl-5"><Authentication /></div> : <svg xmlns="http://www.w3.org/2000/svg" className="cursor-pointer hover:text-gray-300" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="..."/></svg>}
                     </div>
                 </nav>
 

@@ -1,4 +1,3 @@
-import { t } from 'i18next';
 import React from 'react';
 
 const CarportBestMeterials = () => {
@@ -29,7 +28,7 @@ const CarportBestMeterials = () => {
                     </div>
                 </div>
                 <div className="w-full md:w-2/5 flex justify-center mx-auto">
-                    <img src="https://i.ibb.co/W0C2WY8/Screenshot-11.png" alt="" className="rounded md:h-96 border border-primary" />
+                    <img src="https://i.ibb.co/W0C2WY8/Screenshot-11.png" alt="ShadeSwift Carport" className="rounded md:h-96 border border-primary" loading="lazy" />
                 </div>
             </div>
         </div>

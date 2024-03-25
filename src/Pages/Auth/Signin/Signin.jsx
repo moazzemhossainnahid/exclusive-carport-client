@@ -83,11 +83,11 @@ const Signin = () => {
                 <script async src="https://www.googletagmanager.com/gtag/js?id=G-C4HJYE0Z26"></script>
                 <script>
                     {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-C4HJYE0Z26');
-          `}
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-C4HJYE0Z26');
+                    `}
                 </script>
             </Helmet>
             <div className="flex flex-col items-center justify-center">
