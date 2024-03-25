@@ -8,7 +8,7 @@ const CarportUses = () => {
         <div className='bg-[#ffffff] py-7 h-full'>
             <div className="flex flex-col md:flex-row justify-between items-center gap-3 w-full mx-auto">
                 <div data-aos="fade-down" data-aos-duration="1000" className="w-full md:w-2/6 mx-auto relative">
-                <img src="https://i.ibb.co/d7hSwkX/Screenshot-10-1.png" alt="Carport" className="w-5/6 h-full my-10 relative border border-primary  flex justify-center items-center mx-auto" loading="lazy" />
+                <img src="https://i.ibb.co/d7hSwkX/Screenshot-10-1.png" alt="Carport" className="w-5/6 h-full my-10 relative border border-primary  flex justify-center items-center mx-auto" loading="eager" />
                 </div>
                 <div data-aos="fade-up" data-aos-duration="1000" className="w-full md:w-4/6 mx-auto p-5">
                     <h3 className="text-2xl font-bold text-dark md:w-2/3">{`Key Features of our Carport ShadeSwift `}</h3>

@@ -39,7 +39,7 @@ const ExclusivePackages = () => {
                     carports && carports?.map(c => (
                         <div data-aos="fade-up" data-aos-duration="1000" className="flex flex-col md:flex-row justify-between py-7 items-center w-full gap-5">
                             <div className="w-full md:w-3/6 mx-auto relative">
-                                <img src={c?.images?.banner} alt={c?.mainTtl} className="relative shadow-lg w-full h-64 md:h-80 lg:h-96 border border-primary rounded-2xl object-cover z-10" />
+                                <img src={c?.images?.banner} alt={c?.mainTtl} className="relative shadow-lg w-full h-64 md:h-80 lg:h-96 border border-primary rounded-2xl object-cover z-10" loading='eager' />
                                 <img src="https://i.ibb.co/n1JZQLF/dotted-circle-02-2.png" alt="img" className="absolute z-0 p-5 -left-20 -bottom-20" />
                             </div>
                             <div className="w-full md:w-3/6 mx-auto p-5 space-y-3">

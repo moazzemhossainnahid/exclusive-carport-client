@@ -5,7 +5,7 @@ const PremiumService = () => {
         <div className='w-full h-full lg:h-[80vh] bg-[#222222] py-7'>
             <div className="flex flex-col md:flex-row justify-between items-start gap-3 w-full mx-auto pt-10">
                 <div data-aos="fade-down" data-aos-duration="1000" className="w-full md:w-2/6 mx-auto relative">
-                    <img src="https://i.ibb.co/d7hSwkX/Screenshot-10-1.png" alt="Carport" className="w-full 2xl:w-4/5 mx-auto flex justify-center p-7" loading="lazy" />
+                    <img src="https://i.ibb.co/d7hSwkX/Screenshot-10-1.png" alt="Carport" className="w-full 2xl:w-4/5 mx-auto flex justify-center p-7" loading="eager" />
                 </div>
                 <div data-aos="fade-up" data-aos-duration="1000" className="w-full md:w-4/6 mx-auto p-5">
                     <h3 className="text-2xl font-bold text-white md:w-2/3">We ensure to provide you with a premium carport service</h3>

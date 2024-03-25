@@ -28,7 +28,7 @@ const CarportBestMeterials = () => {
                     </div>
                 </div>
                 <div className="w-full md:w-3/5 flex justify-center mx-auto">
-                    <img src="https://i.ibb.co/2dfmRy5/Screenshot-11-1-1.png" alt="ShadeSwift Carport" className="rounded md:h-[80%] border border-primary" loading="lazy" />
+                    <img src="https://i.ibb.co/2dfmRy5/Screenshot-11-1-1.png" alt="ShadeSwift Carport" className="h-full md:h-96 border border-primary" loading="eager" />
                 </div>
             </div>
         </div>
