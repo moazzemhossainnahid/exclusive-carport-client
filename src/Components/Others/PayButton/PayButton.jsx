@@ -9,7 +9,7 @@ const PayButton = ({ checkoutItems }) => {
 
     // const handleCheckout = () => {
 
-    //     axios.post(`http://localhost:5000/api/v1/stripe/create-checkout-session`, {
+    //     axios.post(`https://server.exclusivecarport.com/api/v1/stripe/create-checkout-session`, {
     //         checkoutItems,
     //         user,
     //     }, {
@@ -28,7 +28,7 @@ const PayButton = ({ checkoutItems }) => {
 
     const handleCheckout = () => {
         // send to database
-        fetch('http://localhost:5000/api/v1/stripe/create-checkout-session', {
+        fetch('https://server.exclusivecarport.com/api/v1/stripe/create-checkout-session', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',

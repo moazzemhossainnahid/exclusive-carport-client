@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { useAuthState } from 'react-firebase-hooks/auth';
 import { FaEuroSign } from 'react-icons/fa';
-import { useNavigate, useParams } from 'react-router-dom';
-import auth from '../../../firebase.init';
+import { useParams } from 'react-router-dom';
 import PayButton from '../../Components/Others/PayButton/PayButton';
 import { toast } from 'react-toastify';
 import UseCarport from '../../Hooks/useCarport';
@@ -11,20 +9,11 @@ import { Helmet } from 'react-helmet';
 const CartCarport = () => {
     const { id } = useParams();
     const [carports] = UseCarport();
-    const navigate = useNavigate();
-    // const [isChecked, setIsChecked] = useState(false);
-    const [user] = useAuthState(auth);
     const carport = carports && carports?.find(c => c?.id === id);
     const [quantity, setQuantity] = useState(1); // Initialize quantity to 1
     const [totalPrice, setTotalPrice] = useState(carport?.price); // Initialize quantity to 1
     const [downPayment, setDownPayment] = useState(0); // Initialize amount to 0
     const [downPaymentInput, setDownPaymentInput] = useState(''); // Controlled input
-
-
-    // useEffect(() => {
-    //     const newPrice = parseInt((chair?.price) + (chair?.price * 0.02));
-    //     setTotalPrice(newPrice);
-    // }, [chair])
 
     useEffect(() => {
         const newPrice = parseInt(((carport?.price * quantity) + (carport?.price * quantity) * 10 / 100 + (carport?.price * quantity) * 0.8 / 100));
@@ -53,11 +42,6 @@ const CartCarport = () => {
         }
     ];
 
-    // const handleQuantityChange = (event) => {
-    //     const newQuantity = parseInt(event.target.value, 10);
-    //     setQuantity(newQuantity);
-    // };
-
     const handleIncrement = () => {
         setQuantity(prevQuantity => prevQuantity + 1);
     };
@@ -66,7 +50,7 @@ const CartCarport = () => {
         setQuantity(prevQuantity => (prevQuantity > 1 ? prevQuantity - 1 : 1));
     };
 
-    console.log("item", item);
+    // console.log("item", item);
 
     const processDownPayment = () => {
         const downPayent = parseFloat(downPaymentInput); // Convert to number
@@ -99,25 +83,6 @@ const CartCarport = () => {
                     <div className="w-full relative h-full transform translate-x-0 transition ease-in-out duration-700" id="checkout">
                         <div className="w-full" id="cart">
                             <div className="w-full md:w-4/5 mx-auto p-5" id="scroll">
-                                {/* <div onClick={() => navigate(-1)} className="flex items-center text-gray-500 hover:text-gray-600 cursor-pointer">
-                                    <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-chevron-left" width={16} height={16} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                        <polyline points="15 6 9 12 15 18" />
-                                    </svg>
-                                    <p className="text-sm pl-2 leading-none">Back</p>
-                                </div> */}
-                                {/* <div className="py-5">
-                                    <div className="flex justify-between gap-3">
-                                        <h3 className="font-semibold"><span className="font-bold">1</span> Item in Order Request</h3>
-                                        <h3 className="font-semibold">Order Request Subtotal: <br /> <p className="text-base flex gap-2 items-center pt-2 justify-end font-black leading-none text-gray-800"><FaEuroSign /> <span className="">{carport?.price}.00</span></p> </h3>
-                                    </div>
-
-                                    <div className="w-full flex justify-end pt-3">
-                                        <button onClick={() => navigate(`/cart/${id}`)} className=" text-white bg-[#00C2FF] border-0 justify-center btn btn-warning px-7 py-2 rounded">
-                                            <p onClick={() => navigate(-1)} className="flex tracking-widest gap-2">View and Edit Order Request</p>
-                                        </button>
-                                    </div>
-                                </div> */}
 
                                 <div className="w-full pb-7">
                                     <h3 style={{ fontFamily: 'Helvetica' }} className="text-base text-2xl md:text-3xl font-semibold leading-none">Checkout</h3>
@@ -224,100 +189,34 @@ const CartCarport = () => {
                                     </div>
                                 </div>
 
-
-                            </div>
-                            <div className="md:w-1/3 hidden w-full bg-gray-100 h-full">
-                                <div className="flex flex-col md:h-screen px-14 py-20 justify-between overflow-y-auto">
-                                    <div>
-                                        <p className="text-4xl font-black leading-9 text-gray-800">Summary</p>
-                                        <div className="flex items-center justify-between pt-16">
-                                            <p className="text-base leading-none text-gray-800">Subtotal</p>
-                                            <p className="text-base leading-none text-gray-800 flex gap-2 items-center"><FaEuroSign /> {(carport?.price * quantity)?.toFixed(2)}</p>
-                                        </div>
-                                        {/* <div className="flex items-center justify-between pt-5">
-                                            <p className="text-base leading-none text-gray-800">Shipping</p>
-                                            <p className="text-base leading-none text-gray-800 flex gap-2 items-center"><FaEuroSign /> {((chair?.price * 0.02) * quantity)?.toFixed(2)}</p>
-                                        </div> */}
-                                        {/* <div className="flex items-center justify-between pt-5">
-                                            <p className="text-base leading-none text-gray-800">Tax</p>
-                                            <p className="text-base leading-none text-gray-800 flex gap-2 items-center"><FaEuroSign /> {(chair?.price * 2 / 100).toFixed(2)}</p>
-                                        </div> */}
-
-                                        <div className="w-full md:flex flex-col items-center justify-center gap-3 lg:text-lg font-medium text-black border-b border-primary pb-3 pt-2 md:pt-3 mt-10">
-                                            <p>Down Payments <span className="text-sm">(Optional)</span>:</p>{" "}
-                                            <div className="w-fit h-8 flex items-center gap-2">
-                                                <input
-                                                    type="text"
-                                                    // ref={downPayRef}
-                                                    placeholder="Enter Amount"
-                                                    className="outline-none rounded-md px-2 bg-gray-300 border text-sm font-semibold text-gray-800 max-w-[150px] h-full"
-                                                ></input>
-                                                <button
-                                                    onClick={processDownPayment}
-                                                    className="px-3 rounded bg-primary text-white h-full"
-                                                >
-                                                    Process
-                                                </button>
+                                <div className="w-full py-10">
+                                    <div className="w-full flex flex-col md:flex-row justify center items-center gap-3">
+                                        <div className="border flex items-center justify-start ap-3 rounded border-primary text-primary p-5">
+                                            <div className="w-1/5">
+                                                <img src="/box.svg" alt="" className="" />
+                                            </div>
+                                            
+                                            <div className="w-4/5 border-l-2 border-primary/70 pl-2">
+                                                <h3 className="text-xl font-semibold">Expected Delivery Date</h3>
+                                                <p className="text-sm">This product is expected to ship in December, 2024</p>
                                             </div>
                                         </div>
+                                        <div className="border rounded border-primary text-primary p-5">
+                                            <h3 className="text-xl font-semibold">This is a PRE-ORDER product</h3>
+                                            <p className="text-sm">When you confirm the order, We will freshly make a new one for your car.</p>
+                                        </div>
                                     </div>
-                                    <div>
-                                        {/* <div className="flex items-center pb-6 justify-between lg:pt-5 pt-20">
-                                            <p className="text-2xl leading-normal text-gray-800">Total</p>
-                                            <p className="text-2xl font-bold leading-normal text-right text-gray-800 flex gap-2 items-center"><FaEuroSign /> {((chair?.price * quantity) + (chair?.price * 0.02) * quantity)?.toFixed(2)}</p>
-                                        </div> */}
-                                        {/* <button onClick={() => navigate('/checkout')} className="text-base leading-none w-full py-5 bg-gray-800 border-gray-800 border focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 text-white">
-                                            Checkout
-                                        </button> */}
-                                        {
-                                            downPayment > 0 && <div className="flex items-center pb-6 justify-between lg:pt-5 pt-20">
-                                                <p className="text-xl leading-normal text-gray-800">Total</p>
-                                                <p className="text-xl font-bold leading-normal text-right text-gray-800 flex gap-2 items-center"><FaEuroSign /> {(((carport?.price * quantity))?.toFixed(2))}</p>
-                                            </div>}
-                                        {
-                                            downPayment > 0 &&
-                                            <div className="flex items-center pb-6 justify-between lg:pt-5 pt-5 border-primary border-b">
-                                                <p className="text-xl leading-normal text-gray-800">DownPayment</p>
-                                                <p className="text-xl font-bold leading-normal text-right text-gray-800 flex gap-2 items-center"><FaEuroSign /> {`${downPayment}.00`}</p>
-                                            </div>
-                                        }
-                                        {
-                                            !downPayment > 0 && <div className="flex items-center pb-6 justify-between lg:pt-5 pt-10">
-                                                <p className="text-xl leading-normal font-bold text-gray-800">Grand Total</p>
-                                                {/* <p className="text-2xl font-bold leading-normal text-right text-gray-800 flex gap-2 items-center"><FaEuroSign /> {((chair?.price * quantity)?.toFixed(2))}</p> */}
-                                                <p className="text-xl font-bold leading-normal text-right text-gray-800 flex gap-2 items-center"><FaEuroSign /> {`${downPayment > 0 ? downPayment : (carport?.price * quantity)}.00`}</p>
-                                            </div>
-                                        }
-                                        {downPayment > 0 && <div className="flex items-center pb-6 justify-between lg:pt-5 pt-5">
-                                            <p className="text-xl leading-normal text-gray-800"> Due</p>
-                                            <p className="text-xl font-bold leading-normal text-right text-gray-800 flex gap-2 items-center"><FaEuroSign /> {((downPayment - (carport?.price * quantity))?.toFixed(2))}</p>
-                                        </div>}
-                                        <PayButton checkoutItems={item} />
-                                    </div>
+
                                 </div>
+
+
                             </div>
+
                         </div>
                     </div>
                 </div>
             </div>
 
-            <style>
-                {` /* width */
-                #scroll::-webkit-scrollbar {
-                    width: 5px;
-                }
-
-                /* Track */
-                #scroll::-webkit-scrollbar-track {
-                    background: #f1f1f1;
-                }
-
-                /* Handle */
-                #scroll::-webkit-scrollbar-thumb {
-                    background: rgb(133, 132, 132);
-                }
-`}
-            </style>
         </div>
     );
 };

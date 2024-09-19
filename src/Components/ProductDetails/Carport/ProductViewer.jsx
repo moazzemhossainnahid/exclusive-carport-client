@@ -159,7 +159,7 @@ const ProductViewer = ({ carport }) => {
     // console.log(appointment);
 
     fetch(
-      `http://localhost:5000/api/v1/appointments`,
+      `https://server.exclusivecarport.com/api/v1/appointments`,
       {
         method: "POST",
         headers: {
