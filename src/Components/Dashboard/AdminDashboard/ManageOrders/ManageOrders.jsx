@@ -11,7 +11,7 @@ const ManageOrders = () => {
 
 
     useEffect(() => {
-        fetch('https://server.exclusivecarport.com/api/v1/orders')
+        fetch('http://localhost:5000/api/v1/orders')
             .then(res => res.json())
             .then(data => setOrders(data))
     }, [number]);

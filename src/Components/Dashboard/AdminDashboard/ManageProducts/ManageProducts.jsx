@@ -10,7 +10,7 @@ const ManageProducts = () => {
 
 
     useEffect(() => {
-        fetch('https://server.exclusivecarport.com/api/v1/products')
+        fetch('http://localhost:5000/api/v1/products')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [number])

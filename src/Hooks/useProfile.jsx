@@ -8,7 +8,7 @@ const useProfile = () => {
     const email = user?.email;
 
     useEffect(() => {
-        fetch(`https://server.exclusivecarport.com/api/v1/users/${email}`, {
+        fetch(`http://localhost:5000/api/v1/users/${email}`, {
             method: 'GET',
             headers: {
                 'content-type': 'application/json',

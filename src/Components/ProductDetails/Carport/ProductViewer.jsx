@@ -159,7 +159,7 @@ const ProductViewer = ({ carport }) => {
     // console.log(appointment);
 
     fetch(
-      `https://server.exclusivecarport.com/api/v1/appointments`,
+      `http://localhost:5000/api/v1/appointments`,
       {
         method: "POST",
         headers: {
@@ -326,7 +326,7 @@ const ProductViewer = ({ carport }) => {
                   </div> */}
                   <div className="flex flex-col gap-3 items-end">
                     <button
-                      onClick={() => navigate(`/carport/cart/${carport?.id}`)}
+                      onClick={() => navigate(`/cart/${carport?.id}`)}
                       className="w-full text-white bg-[#00C2FF] border-0 justify-center btn btn-sm btn-warning px-4 py-1 rounded"
                     >
                       <p className=" flex tracking-widest gap-2">

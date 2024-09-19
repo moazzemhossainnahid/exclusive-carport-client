@@ -9,7 +9,7 @@ const PayButton = ({ checkoutItems }) => {
 
     // const handleCheckout = () => {
 
-    //     axios.post(`https://server.exclusivecarport.com/api/v1/stripe/create-checkout-session`, {
+    //     axios.post(`http://localhost:5000/api/v1/stripe/create-checkout-session`, {
     //         checkoutItems,
     //         user,
     //     }, {
@@ -28,7 +28,7 @@ const PayButton = ({ checkoutItems }) => {
 
     const handleCheckout = () => {
         // send to database
-        fetch('https://server.exclusivecarport.com/api/v1/stripe/create-checkout-session', {
+        fetch('http://localhost:5000/api/v1/stripe/create-checkout-session', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
@@ -57,7 +57,7 @@ const PayButton = ({ checkoutItems }) => {
 
     return (
         <>
-            <button onClick={() => handleCheckout()} className="text-base leading-none w-full py-5 bg-gray-800 border-gray-800 border focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 text-white">Check Out</button>
+            <button onClick={() => handleCheckout()} className="text-white leading-none w-full py-3 font-semibold bg-primary border text-white">Pay Now</button>
         </>
     );
 };

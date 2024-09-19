@@ -9,7 +9,7 @@ const ManageUsers = () => {
     const [users, setUsers] = useState([]);
 
     useEffect( () => {
-        fetch('https://server.exclusivecarport.com/api/v1/users')
+        fetch('http://localhost:5000/api/v1/users')
         .then(res => res.json())
         .then(data => setUsers(data))
     }, [users]);

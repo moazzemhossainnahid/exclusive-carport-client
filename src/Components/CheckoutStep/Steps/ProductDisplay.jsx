@@ -8,7 +8,7 @@ const ProductDisplay = () => {
             price: "3700"
         }
 
-        fetch(`https://server.exclusivecarport.com/create-checkout-session`, {
+        fetch(`http://localhost:5000/create-checkout-session`, {
             method: 'POST',
             mode: "no-cors",
         })

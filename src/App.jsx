@@ -51,7 +51,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Carport />} />
             <Route path='/productdetails/carport/:id' element={<ProductDetailsCarport />} />
-            <Route path='/carport/cart/:id' element={<RequireAuth><CartCarport /></RequireAuth>} />
+            <Route path='/cart/:id' element={<RequireAuth><CartCarport /></RequireAuth>} />
             <Route path='/signin' element={<Signin />} />
             <Route path='/signup' element={<Signup />} />
             <Route path='/profile' element={<Profile />} />

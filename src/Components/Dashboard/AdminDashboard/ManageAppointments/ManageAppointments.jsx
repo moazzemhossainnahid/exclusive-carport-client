@@ -10,7 +10,7 @@ const ManageAppointments = () => {
 
 
     useEffect(() => {
-        fetch('https://server.exclusivecarport.com/api/v1/appointments')
+        fetch('http://localhost:5000/api/v1/appointments')
             .then(res => res.json())
             .then(data => setAppointments(data))
     }, [number])
